@@ -1,0 +1,15 @@
+.modal-content {
+    left: 25px;
+    text-align: center;
+}
+
+.btn-terima {
+    background-color: #0D28A6;
+    width: 15%;
+}
+
+.btn-tolak {
+    background-color: white;
+    color: #0D28A6;
+    width: 15%;
+}

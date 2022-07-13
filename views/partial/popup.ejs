@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="./css/popup.css">
+<div class="toast">
+    <div class="toast-body">
+        <div class="d-grid gap-2">
+            <button class="btn-data btn-dark" type="button">Data Berhasil
+                Dihapus</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("toastbtn").onclick = function () {
+        var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+        var toastList = toastElList.map(function (toastEl) {
+            return new bootstrap.Toast(toastEl)
+        })
+        toastList.forEach(toast => toast.show())
+    }
+</script>

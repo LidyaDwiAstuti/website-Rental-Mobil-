@@ -1,0 +1,66 @@
+.class-sidebar {
+    background-color: #0D28A6;
+    width: 5%;
+}
+
+.class-sidebar p {
+    color: white;
+    font-size: 7pt;
+}
+
+#startcontent {
+    margin-left: 5%;
+}
+
+.searchcontent {
+    background: url(../img/fi_search.png) no-repeat scroll 5% 10px;
+    padding-left: 10% !important;
+}
+
+.down-icon {
+    margin-top: 1.8%;
+    list-style: none;
+}
+
+.bxs-chevron-down {
+    font-size: 20pt;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nama-pengguna {
+    width: 50%;
+}
+
+.content-sidebar {
+    width: 15%
+}
+
+
+.content1 {
+    margin-left: 15%;
+}
+
+.card {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #0D28A6 !important;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    display: none;
+}
+
+input[type="file"]::file-selector-button {
+    display: none;
+}
+
+.formcek {
+    background: url(../img/fi_upload.png) no-repeat scroll 95% 8px;
+    padding-right: 12% !important;
+}

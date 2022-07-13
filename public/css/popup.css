@@ -1,0 +1,10 @@
+.toast {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    right: 50%;
+}
+
+.btn-data {
+    background-color: black;
+}
